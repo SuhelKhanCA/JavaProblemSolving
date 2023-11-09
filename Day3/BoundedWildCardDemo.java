@@ -45,7 +45,23 @@ public class BoundedWildCardDemo {
         // vitality(wList);
 
         // classs method
-        // showSea();
+        // showSea(uList);
+        // showSea(qList);
+        // showSea(lList);
+        // showSea(pList);
+        // showSea(wList);
+
+        // showLand(uList);
+        // showLand(qList);
+        // showLand(lList);
+        // showLand(pList);
+        // showLand(wList);
+
+        // showPet(uList);
+        // showPet(qList);
+        // showPet(lList);
+        // showPet(pList);
+        // showPet(wList);
     }
 
    
