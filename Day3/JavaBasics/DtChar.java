@@ -1,3 +1,4 @@
+package Day3.JavaBasics;
 // Code Explaining Char data types 
 public class Demo {
  public static void main(String[] args) {

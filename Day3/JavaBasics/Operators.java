@@ -1,3 +1,4 @@
+package Day3.JavaBasics;
 // Java Program to implement
 // Arithmetic Operators
 import java.io.*;

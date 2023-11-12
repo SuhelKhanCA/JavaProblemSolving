@@ -1,3 +1,4 @@
+package Day3.JavaBasics;
 // Java Program to Demonstrate Char Primitive Data Type
 // Class
 class DataTpyes {

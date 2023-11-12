@@ -1,3 +1,4 @@
+package Day3.JavaBasics;
 // Integer type 
 public class Demo {
     public static void main(String[] args)

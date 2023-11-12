@@ -1,3 +1,4 @@
+package Day3.JavaBasics;
 import java.lang.*;
 import java.util.*;
 class GeeksForGeeks {
