@@ -1,4 +1,4 @@
-package Day3.JavaBasics;
+package JavaGFG.JavaBasics;
 // Example 5.3 - genericClass
 public class Student<T extends Number> {
     String name;

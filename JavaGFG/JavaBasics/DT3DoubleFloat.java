@@ -1,4 +1,4 @@
-package Day3.JavaBasics;
+package JavaGFG.JavaBasics;
 // Code Explaining Decimal data types in java
 public class Demo {
     public static void main(String[] args)

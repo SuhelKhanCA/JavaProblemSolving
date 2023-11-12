@@ -1,6 +1,6 @@
 // Example 5.3 - genericClass
 
-import Day3.JavaBasics.Student;
+import JavaGFG.JavaBasics.Student;
 
 class Student<T extends Number> {
     String name;

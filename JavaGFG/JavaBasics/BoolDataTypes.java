@@ -1,4 +1,4 @@
-package Day3.JavaBasics;
+package JavaGFG.JavaBasics;
 // code Explaining Boolean data types 
 public class Demo {
    public static void main(String[] args) {

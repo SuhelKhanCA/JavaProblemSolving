@@ -1,4 +1,4 @@
-package Day3.JavaBasics;
+package JavaGFG.JavaBasics;
 // Java Program to implement
 // Relational Operators
 import java.io.*;
