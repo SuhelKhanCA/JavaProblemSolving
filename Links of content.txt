@@ -1,0 +1,13 @@
+1. 50 problems sets
+	Array:-	https://www.geeksforgeeks.org/top-50-array-coding-problems-for-interviews/
+	LinkedList:- https://www.geeksforgeeks.org/top-50-array-coding-problems-for-interviews/
+	Stacks:- https://www.geeksforgeeks.org/top-50-problems-on-stack-data-structure-asked-in-interviews/
+	Queues:- https://www.geeksforgeeks.org/top-50-problems-on-queue-data-structure-asked-in-sde-interviews/
+
+
+2. DSA
+	https://www.geeksforgeeks.org/what-is-data-structure-types-classifications-and-applications/
+3. Official Docs
+	https://docs.oracle.com/javase/tutorial/
+4. NPTEl DSAcode
+	https://cse.iitkgp.ac.in/~dsamanta/javads/index.htm
