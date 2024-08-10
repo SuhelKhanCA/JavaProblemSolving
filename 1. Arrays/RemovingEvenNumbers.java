@@ -1,4 +1,3 @@
-package Arrays;
 import java.util.*;
 public class RemovingEvenNumbers{
     public static void main(String[] args) {
