@@ -15,7 +15,7 @@ class Solution {
         return count;
     }
 
-    public static boolean isEven(int num){
+    public static boolean isEven(int num){ // return (int)Math.log10(nums) + 1
         int c = 0;
         while(num != 0){
             num = num / 10;
