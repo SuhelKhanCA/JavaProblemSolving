@@ -1,5 +1,3 @@
-package Arrays;
-
 public class MajorityElement {
     public static void main(String[] args) {
         int arr[] = {5, 7, 4, 7, 4, 3, 4, 4, 7, 4, 4, 7, 4, 4};
