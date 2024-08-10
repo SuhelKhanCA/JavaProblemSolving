@@ -5,7 +5,7 @@ class ArraysKthElement {
 		int a[] = { 2, 34, 56, 45, 90, 33 };
 		int k = 3; // 3rd smallest
 		int l = 1;
-		int r = 4;
+		int r = 6;
 		int kth = kthSmallest(a, l, r, k);
 	}
 
