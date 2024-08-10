@@ -1,49 +1,24 @@
-//{ Driver Code Starts
-//Initial Template for Java
-
-/*package whatever //do not write package name here */
-
-import java.io.*;
 import java.util.*;
+
 class ArraysKthElement {
-	public static void main (String[] args) {
-		Scanner sc=new Scanner(System.in);
-		PrintWriter out = new PrintWriter(System.out);
-		int t=sc.nextInt();
-		
-		while(t-->0)
-		{
-		    int n=sc.nextInt();
-		    
-		    int arr[]=new int[n];
-		    
-		    for(int i=0;i<n;i++)
-		    arr[i]=sc.nextInt();
-		    
-		    int k=sc.nextInt();
-		    Solution ob = new Solution();
-		    out.println(ob.kthSmallest(arr, 0, n-1, k));
-		}
-		out.flush();
+	public static void main(String[] args) {
+		int a[] = { 2, 34, 56, 45, 90, 33 };
+		int k = 3; // 3rd smallest
+		int l = 1;
+		int r = 4;
+		int kth = kthSmallest(a, l, r, k);
 	}
-}
 
-// } Driver Code Ends
+	public static int kthSmallest(int[] arr, int l, int r, int k) {
+		// Copy the array into a new array
+		int[] copyArr = Arrays.copyOfRange(arr, l, r + 1);
 
+		// Sort the new array
+		Arrays.sort(copyArr);
 
-//User function Template for Java
+		// Return the kth smallest element
+		return copyArr[k - 1];
 
-class Solution{
-    public static int kthSmallest(int[] arr, int l, int r, int k) 
-    { 
-        // Copy the array into a new array
-        int[] copyArr = Arrays.copyOfRange(arr, l, r+1);
-        
-        // Sort the new array
-        Arrays.sort(copyArr);
-        
-        // Return the kth smallest element
-        return copyArr[k-1];
+	}
 
-    } 
 }
