@@ -2,9 +2,12 @@ package LinearSearch;
 
 public class Demo {
 
+    // Linear Search function
     public static boolean ifFound(int a[], int target){
         boolean flag = false;
-        
+        if (a.length==0) {
+            return false;
+        }
         for (int i = 0; i < a.length; i++) {
             if (a[i]== target) {
                 flag = true;
