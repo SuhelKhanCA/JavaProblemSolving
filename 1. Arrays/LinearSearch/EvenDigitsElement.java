@@ -1,17 +1,18 @@
 package LinearSearch;
 // https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
+
 class Solution {
     public int findNumbers(int[] nums) {
         int count  = 0;
         for(int i = 0; i < nums.length; i++){
-            if(even(nums[i])){
+            if(isEven(nums[i])){
                 count++;
             }
         }
         return count;
     }
 
-    public static boolean even(int num){
+    public static boolean isEven(int num){
         int c = 0;
         while(num != 0){
             num = num / 10;
