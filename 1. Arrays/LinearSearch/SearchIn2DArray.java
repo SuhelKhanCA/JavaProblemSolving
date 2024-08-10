@@ -1,5 +1,7 @@
 package LinearSearch;
 
+import java.util.Arrays;
+
 public class SearchIn2DArray {
     public static void main(String[] args) {
         int a[][] = {
@@ -8,23 +10,23 @@ public class SearchIn2DArray {
                 { 78, 99, 34, 56 },
                 { 19, 12 }
         };
-        int target = 199;
-
-        System.out.println("Is target there in array: " + search(a, target));
+        int target = 99;
+        int ans[] = search(a, target);
+        System.out.println("Target found in array at : " + Arrays.toString(ans));
     }
 
-    public static boolean search(int[][] a, int target) {
+    public static int[] search(int[][] a, int target) {
         if (a.length == 0) {
-            return false;
+            return new int[]{};
         }
 
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a[i].length; j++) {
                 if (a[i][j] == target) {
-                    return true;
+                    return new int[]{i, j};
                 }
             }
         }
-        return false;
+        return new int[]{};
     }
 }
