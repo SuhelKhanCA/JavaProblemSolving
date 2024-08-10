@@ -1,5 +1,3 @@
-package Arrays;
-
 //{ Driver Code Starts
 //Initial Template for Java
 
