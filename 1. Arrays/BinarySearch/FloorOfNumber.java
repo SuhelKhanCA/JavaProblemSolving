@@ -17,13 +17,13 @@ public class FloorOfNumber {
       int start = 0;
       int end = arr.length - 1;
       // Check if the target is smaller than the smallest element
-      if (target <= arr[start]) {
-        return arr[start];
+      if (target < arr[start]) {
+        return Integer.MIN_VALUE;
     }
 
     // Check if the target is larger than the largest element
-    if (target > arr[end]) {
-        return Integer.MAX_VALUE;
+    if (target >= arr[end]) {
+        return arr[end];
     }     
 
       boolean isAsc = arr[start] < arr[end];
