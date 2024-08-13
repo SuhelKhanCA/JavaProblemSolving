@@ -40,7 +40,7 @@ public class CeilingOfNumber { // just greater or equal to ---> >= taget
             if (arr[mid] > target) {
                 end = mid - 1;
             }else{
-                start = start + 1;
+                start = mid + 1;
             }
         } else {
             if (arr[mid] > target) {
