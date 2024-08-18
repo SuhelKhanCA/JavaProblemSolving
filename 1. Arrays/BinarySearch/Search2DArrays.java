@@ -40,7 +40,7 @@ class Search2DArrays{
     }
 
 
-    // Binary Search ---> O(n)
+    // Binary Search ---> O(n + m)
     static int[] binarySearch(int [][] a, int target){
         int row = 0;
         int col = a[0].length - 1;
