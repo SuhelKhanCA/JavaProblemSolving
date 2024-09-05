@@ -1,9 +1,13 @@
 1. 50 problems sets
 	Array:-	https://www.geeksforgeeks.org/top-50-array-coding-problems-for-interviews/
+	String:- https://www.geeksforgeeks.org/top-50-string-coding-problems-for-interviews/
 	LinkedList:- https://www.geeksforgeeks.org/top-50-array-coding-problems-for-interviews/
+	Recursion:- https://www.geeksforgeeks.org/top-50-interview-problems-on-recursion-algorithm/
 	Stacks:- https://www.geeksforgeeks.org/top-50-problems-on-stack-data-structure-asked-in-interviews/
 	Queues:- https://www.geeksforgeeks.org/top-50-problems-on-queue-data-structure-asked-in-sde-interviews/
-
+	Tree:- https://www.geeksforgeeks.org/top-50-tree-data-structure-problems
+	Hash:- https://www.geeksforgeeks.org/top-50-problems-on-hash-data-structure-asked-in-sde-interviews/
+	Graphs:- https://www.geeksforgeeks.org/top-50-graph-coding-problems-for-interviews/
 
 2. DSA
 	https://www.geeksforgeeks.org/what-is-data-structure-types-classifications-and-applications/
