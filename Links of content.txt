@@ -9,9 +9,6 @@
 	Hash:- https://www.geeksforgeeks.org/top-50-problems-on-hash-data-structure-asked-in-sde-interviews/
 	Graphs:- https://www.geeksforgeeks.org/top-50-graph-coding-problems-for-interviews/
 
-2. DSA
-	https://www.geeksforgeeks.org/what-is-data-structure-types-classifications-and-applications/
-3. Official Docs
-	https://docs.oracle.com/javase/tutorial/
+
 4. NPTEl DSAcode
 	https://cse.iitkgp.ac.in/~dsamanta/javads/index.htm
