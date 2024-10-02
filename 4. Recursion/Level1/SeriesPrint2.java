@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class SeriesPrint2 {
     public static void print(int n){
         if (n==1) {
-            System.out.print(1);
+            System.out.print(1 + " ");
             return;
         }
         print(n - 1);
