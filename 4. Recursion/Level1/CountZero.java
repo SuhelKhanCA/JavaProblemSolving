@@ -6,7 +6,7 @@ public class CountZero {
             return c;
         }
         if (n%10 == 0) {
-            return count(n/10, c++);
+            return count(n/10, ++c);
         }else{
             return count(n/10, c);
         }
