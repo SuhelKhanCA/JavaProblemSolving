@@ -3,36 +3,35 @@ import java.util.Arrays;
 public class InPlaceMergeSort {
     public static void main(String[] args) {
         int[] arr = { 34, 7, 3, 10, 2 };
-        arr = sort(arr, 0, arr.length);
+        sort(arr, 0, arr.length);
         System.out.println(Arrays.toString(arr));
     }
     
     static void sort(int[] arr, int s, int e) {
-        if (arr.length == 1) {
-            return arr;
+        if (e - s == 1) {
+            return;
         }
-         s = 0;
-         e = arr.length;
-         int mid = arr.length / 2;
-        int[] left = sort(arr, s, mid);
-        int[] right = sort(arr,mid, e);
+        
+        int mid = (s + e) / 2;
+        sort(arr, s, mid);
+        sort(arr,mid, e);
 
-        return merge(arr, s, e);
+        merge(arr, s, mid, e);
     }
     
-    static int[] merge(int[], int s, int e) {
-        int[] mix = new int[];
+    static void merge(int[] arr, int s, int mid, int e) {
+        int[] mix = new int[e-s];
 
         int i = s;
-        int j = m;
-        int k = e;
+        int j = mid;
+        int k = 0;
 
-        while (i < first.length && j < second.length) {
-            if (first[i] < second[j]) {
-                mix[k] = first[i];
+        while (i < mid && j < e) {
+            if (arr[i] < arr[j]) {
+                mix[k] = arr[i];
                 i++;
             } else {
-                mix[k] = second[j];
+                mix[k] = arr[j];
                 j++;
             }
 
@@ -40,17 +39,20 @@ public class InPlaceMergeSort {
         }
         // one of array remained, so copy these too
 
-        while (i < first.length) {
-            mix[k] = first[i];
+        while (i < mid) {
+            mix[k] = arr[i];
             i++;
             k++;
         }
-        while (j < second.length) {
-            mix[k] = second[j];
+        while (j < e) {
+            mix[k] = arr[j];
             j++;
             k++;
         }
 
-        return mix;
+        // modify original array
+        for (int l = 0; l < mix.length; l++) {
+            arr[s + l] = mix[l];
+        }
     }
 }
